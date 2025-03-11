@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Jo Shu Block
- * Plugin URI:        https://example.com/plugin-name
+ * Plugin URI:         https://github.com/jogendra12/JoShuBlock.git
  * Description:       Gutenberg Blocks for WordPress.
  * Version:           0.1
  * Requires at least: 6.7
