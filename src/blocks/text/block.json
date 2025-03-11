@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "jo-shu-block/text",
+	"version": "0.1.0",
+	"title": "Text",
+	"category": "widgets",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Description for this block. Use this space for describing your block. Any text will do. Description for this block. You can use this space for describing your block."
+		},
+		"fontUnit": {
+            "type": "string",
+            "default": "px"
+        },
+		"fontSize": {
+			"type": "number",
+			"default": 16
+		},
+		"textType": {
+			"type": "string",
+			"default": "single"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"textGradient": {
+			"type": "string"
+		},
+		"shadowSize": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"textdomain": "jo-shu-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
